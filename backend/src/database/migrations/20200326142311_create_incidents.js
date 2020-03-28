@@ -6,7 +6,7 @@ exports.up = function(knex) {
 
         table.string('titulo').notNullable();
         table.string('descricao').notNullable();
-        table.string('valor').notNullable();
+        table.decimal('valor').notNullable();
 
         table.string('ong_id').notNullable();
 
